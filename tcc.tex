@@ -5,24 +5,24 @@
 \input{editaveis/informacoes}
 \input{fixos/informacoes}
 \input{fixos/setup}
-
+\newcommand\tab[1][1cm]{\hspace*{#1}}
 \begin{document}
 
-\frenchspacing 
+\frenchspacing
 \imprimircapa
 \imprimirfolhaderosto*
 
 \input{fixos/fichaCatalografica}
-\input{editaveis/errata}
+%\input{editaveis/errata}
 \input{fixos/folhaDeAprovacao}
-\input{editaveis/dedicatoria}
-\input{editaveis/agradecimentos}
-\input{editaveis/epigrafe}
+%\input{editaveis/dedicatoria}
+%\input{editaveis/agradecimentos}
+%\input{editaveis/epigrafe}
 \input{editaveis/resumo}
 \input{editaveis/abstract}
 \input{fixos/listasAutomaticas}
 \input{editaveis/abreviaturas}
-\input{editaveis/simbolos}
+%\input{editaveis/simbolos}
 \input{fixos/indiceAutomatico}
 
 \textual
@@ -34,11 +34,11 @@
 \input{editaveis/elementosdotexto}
 \input{editaveis/elementosdopostexto}
 
-\bookmarksetup{startatroot} 
+\bookmarksetup{startatroot}
 
 \postextual
 
-\bibliography{bibliografia} 
+\bibliography{bibliografia}
 \input{editaveis/apendices}
 \input{editaveis/anexos}
 \printindex
