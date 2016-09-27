@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2016.9.15)  27 SEP 2016 10:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2016.9.15)  27 SEP 2016 10:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1584,8 +1584,13 @@ Overfull \hbox (39.237pt too wide) in paragraph at lines 168--169
 -plo: T03(Atividade
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
+
+ []
+
 ) (./editaveis/aspectosgerais.tex
-Underfull \hbox (badness 10000) in paragraph at lines 171--1
+Underfull \hbox (badness 10000) in paragraph at lines 173--1
 
  []
 
@@ -1752,9 +1757,8 @@ Package rerunfilecheck Info: File `tcc.brf' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
  )
-(\end occurred inside a group at level 2)
+(\end occurred inside a group at level 1)
 
-### simple group (level 2) entered at line 158 ({)
 ### simple group (level 1) entered at line 69 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
@@ -1764,6 +1768,6 @@ Here is how much of TeX's memory you used:
  15654 multiletter control sequences out of 15000+600000
  83450 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,13n,51p,1407b,758s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,13n,51p,1407b,677s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tcc.dvi (71 pages, 121052 bytes).
+Output written on tcc.dvi (71 pages, 121096 bytes).
